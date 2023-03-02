@@ -49,7 +49,6 @@ p {
 }
 
 
-// Thanks to Jonathan B (https://stackoverflow.com/a/23501094) for figuring that out
 
 sup {
     vertical-align: super;
@@ -67,7 +66,6 @@ img {
 }
 
 
-/* change this when changing the class name of resizableImageClass in rich_text_editor.js */
 img.resizable {
 
   border: 1px solid gray;

@@ -68,7 +68,7 @@ class JavascriptExecutorBase {
   }
 
   // Check if editor's content has been modified
-  bool isDefaultRichTextEditorHtml(String html) {
+  bool isDefaultTextEditorHtml(String html) {
     return defaultHtml == html;
   }
 

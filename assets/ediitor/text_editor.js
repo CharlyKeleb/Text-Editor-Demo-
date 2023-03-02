@@ -501,7 +501,6 @@ var editor = {
     },
 
     _checkboxClicked: function(clickedCheckbox) {
-        // incredible, checked attribute doesn't get set in html, see issue https://github.com/dankito/RichTextEditor/issues/24
         if (clickedCheckbox.checked) {
             clickedCheckbox.setAttribute('checked', 'checked');
         }
